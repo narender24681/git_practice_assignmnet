@@ -12,7 +12,7 @@ for (var i = N - 1; i >= 0; i--) {
     newStr += str[i];
 }
 
-if (newStr != str) {
+if (newStr == str) {
     console.log("Yes");
 }
 else {
